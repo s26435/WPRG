@@ -1,2 +1,2 @@
 # WPRG
-Jan Woslski s26435
+Jan Woslki s26435
