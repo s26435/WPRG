@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezerwacja w hotelu</title>
+</head>
+<body>
+<form action="../Hotel/lab2_1.php" method="post">
+    <label>Imię: <input name="name"></label><br>
+    <label>Nazwisko: <input name="surname"></label><br>
+    <label>Adres: <input name="address"></label><br>
+    <label>Email: <input name="mail" type="email"></label><br>
+    <label>Data i godzina przyjazdu: <input name="date" type="datetime-local"></label><br>
+    <label>Ilość osób: <select id="chooser" name="qOfPeople">
+        <option value="one" selected>1</option>
+        <option value="tfo">2</option>
+        <option value="free">3</option>
+        <option value="for">4</option>
+    </select></label>
+    <input type="submit" value="Zatwierdź!">
+</form>
+</body>
+</html>
